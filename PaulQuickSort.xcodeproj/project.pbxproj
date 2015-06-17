@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD75C60E1B32026C0049BD04 /* PaulQuickSort.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD75C60D1B32026C0049BD04 /* PaulQuickSort.h */; };
+		DD75C6101B32026C0049BD04 /* PaulQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = DD75C60F1B32026C0049BD04 /* PaulQuickSort.m */; };
+		DD75C6161B32026C0049BD04 /* libPaulQuickSort.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD75C60A1B32026C0049BD04 /* libPaulQuickSort.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD75C6171B32026C0049BD04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD75C6021B32026C0049BD04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD75C6091B32026C0049BD04;
+			remoteInfo = PaulQuickSort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD75C6081B32026C0049BD04 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DD75C60E1B32026C0049BD04 /* PaulQuickSort.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD75C60A1B32026C0049BD04 /* libPaulQuickSort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaulQuickSort.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD75C60D1B32026C0049BD04 /* PaulQuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaulQuickSort.h; sourceTree = "<group>"; };
+		DD75C60F1B32026C0049BD04 /* PaulQuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaulQuickSort.m; sourceTree = "<group>"; };
+		DD75C6151B32026C0049BD04 /* PaulQuickSortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaulQuickSortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD75C61B1B32026C0049BD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD75C6071B32026C0049BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD75C6121B32026C0049BD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD75C6161B32026C0049BD04 /* libPaulQuickSort.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD75C6011B32026C0049BD04 = {
+			isa = PBXGroup;
+			children = (
+				DD75C60C1B32026C0049BD04 /* PaulQuickSort */,
+				DD75C6191B32026C0049BD04 /* PaulQuickSortTests */,
+				DD75C60B1B32026C0049BD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD75C60B1B32026C0049BD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD75C60A1B32026C0049BD04 /* libPaulQuickSort.a */,
+				DD75C6151B32026C0049BD04 /* PaulQuickSortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD75C60C1B32026C0049BD04 /* PaulQuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				DD75C60D1B32026C0049BD04 /* PaulQuickSort.h */,
+				DD75C60F1B32026C0049BD04 /* PaulQuickSort.m */,
+			);
+			path = PaulQuickSort;
+			sourceTree = "<group>";
+		};
+		DD75C6191B32026C0049BD04 /* PaulQuickSortTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD75C61A1B32026C0049BD04 /* Supporting Files */,
+			);
+			path = PaulQuickSortTests;
+			sourceTree = "<group>";
+		};
+		DD75C61A1B32026C0049BD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD75C61B1B32026C0049BD04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD75C6091B32026C0049BD04 /* PaulQuickSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD75C61E1B32026C0049BD04 /* Build configuration list for PBXNativeTarget "PaulQuickSort" */;
+			buildPhases = (
+				DD75C6061B32026C0049BD04 /* Sources */,
+				DD75C6071B32026C0049BD04 /* Frameworks */,
+				DD75C6081B32026C0049BD04 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaulQuickSort;
+			productName = PaulQuickSort;
+			productReference = DD75C60A1B32026C0049BD04 /* libPaulQuickSort.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD75C6141B32026C0049BD04 /* PaulQuickSortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD75C6211B32026C0049BD04 /* Build configuration list for PBXNativeTarget "PaulQuickSortTests" */;
+			buildPhases = (
+				DD75C6111B32026C0049BD04 /* Sources */,
+				DD75C6121B32026C0049BD04 /* Frameworks */,
+				DD75C6131B32026C0049BD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD75C6181B32026C0049BD04 /* PBXTargetDependency */,
+			);
+			name = PaulQuickSortTests;
+			productName = PaulQuickSortTests;
+			productReference = DD75C6151B32026C0049BD04 /* PaulQuickSortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD75C6021B32026C0049BD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Ade";
+				TargetAttributes = {
+					DD75C6091B32026C0049BD04 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DD75C6141B32026C0049BD04 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DD75C6051B32026C0049BD04 /* Build configuration list for PBXProject "PaulQuickSort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD75C6011B32026C0049BD04;
+			productRefGroup = DD75C60B1B32026C0049BD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD75C6091B32026C0049BD04 /* PaulQuickSort */,
+				DD75C6141B32026C0049BD04 /* PaulQuickSortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD75C6131B32026C0049BD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD75C6061B32026C0049BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD75C6101B32026C0049BD04 /* PaulQuickSort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD75C6111B32026C0049BD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD75C6181B32026C0049BD04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD75C6091B32026C0049BD04 /* PaulQuickSort */;
+			targetProxy = DD75C6171B32026C0049BD04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD75C61C1B32026C0049BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD75C61D1B32026C0049BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD75C61F1B32026C0049BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD75C6201B32026C0049BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD75C6221B32026C0049BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaulQuickSortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD75C6231B32026C0049BD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaulQuickSortTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD75C6051B32026C0049BD04 /* Build configuration list for PBXProject "PaulQuickSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD75C61C1B32026C0049BD04 /* Debug */,
+				DD75C61D1B32026C0049BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD75C61E1B32026C0049BD04 /* Build configuration list for PBXNativeTarget "PaulQuickSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD75C61F1B32026C0049BD04 /* Debug */,
+				DD75C6201B32026C0049BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD75C6211B32026C0049BD04 /* Build configuration list for PBXNativeTarget "PaulQuickSortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD75C6221B32026C0049BD04 /* Debug */,
+				DD75C6231B32026C0049BD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD75C6021B32026C0049BD04 /* Project object */;
+}

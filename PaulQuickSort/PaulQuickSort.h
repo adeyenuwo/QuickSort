@@ -12,6 +12,6 @@
     NSMutableArray *array;
 }
 
-- (void)quickSort:(NSArray *)a numberofElements:(int)numberofElements;
+- (NSArray *)quickSort:(NSArray *)a numberofElements:(int)numberofElements;
 
 @end

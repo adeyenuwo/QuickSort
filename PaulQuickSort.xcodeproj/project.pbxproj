@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD33F24D1B324FC9005B4B2F /* QuickSortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33F24C1B324FC9005B4B2F /* QuickSortTest.m */; };
 		DD75C60E1B32026C0049BD04 /* PaulQuickSort.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD75C60D1B32026C0049BD04 /* PaulQuickSort.h */; };
 		DD75C6101B32026C0049BD04 /* PaulQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = DD75C60F1B32026C0049BD04 /* PaulQuickSort.m */; };
 		DD75C6161B32026C0049BD04 /* libPaulQuickSort.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD75C60A1B32026C0049BD04 /* libPaulQuickSort.a */; };
@@ -36,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD33F24C1B324FC9005B4B2F /* QuickSortTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickSortTest.m; sourceTree = "<group>"; };
 		DD75C60A1B32026C0049BD04 /* libPaulQuickSort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaulQuickSort.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD75C60D1B32026C0049BD04 /* PaulQuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaulQuickSort.h; sourceTree = "<group>"; };
 		DD75C60F1B32026C0049BD04 /* PaulQuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaulQuickSort.m; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				DD75C61A1B32026C0049BD04 /* Supporting Files */,
+				DD33F24C1B324FC9005B4B2F /* QuickSortTest.m */,
 			);
 			path = PaulQuickSortTests;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD33F24D1B324FC9005B4B2F /* QuickSortTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +360,7 @@
 				DD75C6201B32026C0049BD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD75C6211B32026C0049BD04 /* Build configuration list for PBXNativeTarget "PaulQuickSortTests" */ = {
 			isa = XCConfigurationList;
@@ -364,6 +369,7 @@
 				DD75C6231B32026C0049BD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

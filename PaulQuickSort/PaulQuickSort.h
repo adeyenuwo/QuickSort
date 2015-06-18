@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PaulQuickSort : NSObject
+@interface PaulQuickSort : NSObject {
+    NSMutableArray *array;
+}
+
+- (void)quickSort:(NSArray *)a numberofElements:(int)numberofElements;
 
 @end
